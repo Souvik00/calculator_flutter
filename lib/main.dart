@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
             children: [
               Container(
                 margin: EdgeInsets.all(40.0),
-                color: Colors.white,
+                color: Colors.black,
                 width: 300.0,
                 child: TextField(
                   decoration: InputDecoration(
@@ -56,18 +56,18 @@ class MyApp extends StatelessWidget {
                     children: [
                       Card(
                         //margin: EdgeInsets.,
-                        color: Colors.white,
+                        color: Colors.black,
                         child: Icon(
                           CupertinoIcons.plus,
-                          color: Colors.black,
+                          color: Colors.white,
                           size: 100.0,
                         ),
                       ),
                       Card(
-                        color: Colors.white,
+                        color: Colors.black,
                         child: Icon(
                           CupertinoIcons.minus,
-                          color: Colors.black,
+                          color: Colors.white,
                           size: 100.0,
                         ),
                       ),
@@ -77,18 +77,18 @@ class MyApp extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Card(
-                        color: Colors.white,
+                        color: Colors.black,
                         child: Icon(
                           CupertinoIcons.multiply,
-                          color: Colors.black,
+                          color: Colors.white,
                           size: 100.0,
                         ),
                       ),
                       Card(
-                        color: Colors.white,
+                        color: Colors.black,
                         child: Icon(
                           CupertinoIcons.divide,
-                          color: Colors.black,
+                          color: Colors.white,
                           size: 100.0,
                         ),
                       ),
